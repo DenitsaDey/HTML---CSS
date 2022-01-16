@@ -9,11 +9,11 @@ body{
 }
 
 p{
-    size: 24px;
+    font-size: 24px;
 }
 
 header h1{
-    size: 28px;
+    font-size: 28px;
 }
 
 header p{
