@@ -1,0 +1,20 @@
+html{
+    background-color: #e6e6e6;
+}
+
+ul.gallery{
+    list-style: none;
+    display: inline-block;
+}
+
+ul.gallery li{
+    display: inline-block;
+    border: 0.4rem solid black;
+    padding: 10px;
+    background-color: #fff;
+    margin: 5px;
+}
+
+img{
+    width: 300px;
+}
