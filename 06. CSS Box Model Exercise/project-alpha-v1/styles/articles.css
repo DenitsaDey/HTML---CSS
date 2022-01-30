@@ -1,3 +1,17 @@
+#articlesSection{
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 64px 0 calc(64px - 32px) 0;
+    /*calc ensures that the bottom padding will be the same as the top padding
+    the difference of 32px comes from the margin-bottom that the article li elements add*/
+}
+
+#articlesSection .title{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 64px;
+}
 /* 
         Article ul 
 -----------------------------
@@ -5,9 +19,20 @@
 .articles li{
     display: inline-block;
     width: 30%;
-    margin-right: 5%;
+    margin-right: 4.6%;
+    margin-bottom: 32px;
+    vertical-align: top;
 }
 
+/* 1. we override the margin-right:4.6% from above for every 3rd li element 
+to avoid it getting on a new line, as li element width is 30% => 3 li elements = 90% and we add 2 x 5% in between => 100%
+2. another way to do it is by replacing the margin-right: 4.6% in the parent element
+and directly using .articles li:not(nth-child(3n+3)){
+    margin-right:4.6%;
+}*/
+.articles li:nth-child(3n+3){
+    margin-right:0;
+}
 /* 
         Article component 
 -----------------------------
@@ -43,7 +68,7 @@ in order to set the aspect ration of the image, that will fit in its parent elem
 }
 
 .article .article__desc{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     color: #718096;
     line-height: 22px;
@@ -56,8 +81,8 @@ in order to set the aspect ration of the image, that will fit in its parent elem
 .tag{
     display: inline-block;
     margin-bottom: 12px;
-    font-size:12px;
-    padding: 4px 10px;
+    font-size:14px;
+    padding: 6px 12px;
     border-radius: 6px;
 }
 

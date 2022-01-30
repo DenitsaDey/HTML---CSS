@@ -14,6 +14,7 @@ Colors websites:
 https://mycolor.space/
 https://colorhunt.co/
 https://couleur.io/
+https://coolors.co/
 https://rogden.github.io/tailwind-config-viewer/
 
 CSS :nth-child
