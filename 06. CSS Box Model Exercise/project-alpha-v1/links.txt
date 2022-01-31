@@ -19,3 +19,7 @@ https://rogden.github.io/tailwind-config-viewer/
 
 CSS :nth-child
 https://css-tricks.com/examples/nth-child-tester/
+
+Testing platforms:
+https://sofy.ai/
+https://www.browserstack.com/

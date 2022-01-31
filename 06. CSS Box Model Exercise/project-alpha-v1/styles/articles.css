@@ -7,7 +7,8 @@
 }
 
 #articlesSection .title{
-    font-size: 32px;
+    /* font-size: 32px; - this is not needed any more as we define the h1 rem in the main.css
+    this prevents the browser from automatically decreasing h1 font-size if it's nested in an articel or section*/
     font-weight: bold;
     text-align: center;
     margin-bottom: 64px;
