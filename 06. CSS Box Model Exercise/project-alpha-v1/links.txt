@@ -20,6 +20,15 @@ https://rogden.github.io/tailwind-config-viewer/
 CSS :nth-child
 https://css-tricks.com/examples/nth-child-tester/
 
+CSS Flexbox:
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://flexbox.help/
+https://flexboxfroggy.com/
+https://codingfantasy.com/games/flexboxadventure
+
 Testing platforms:
 https://sofy.ai/
 https://www.browserstack.com/
+
+JPG compressing: 
+https://tinyjpg.com/
