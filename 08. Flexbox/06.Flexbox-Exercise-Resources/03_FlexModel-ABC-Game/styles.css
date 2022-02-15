@@ -1,0 +1,25 @@
+html{
+    padding: 100px;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    max-width: 15vw;
+    height: 35rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 3px;
+}
+
+span{
+    border: 1px solid black;
+    order: 1;
+}
+
+span.second{
+    order: 2;
+}
+
