@@ -6,20 +6,47 @@ html{
 
 .container{
     display: flex;
-    justify-content: center;
+    justify-content: top;
     max-width: 15vw;
     height: 35rem;
     flex-wrap: wrap;
-    flex-direction: row;
-    gap: 3px;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 span{
     border: 1px solid black;
+    text-align: center;
+    padding: 1rem;
     order: 1;
 }
 
 span.second{
+    order: 8;
+}
+
+
+span:nth-child(2){
     order: 2;
 }
 
+span:nth-child(12){
+    order: 3;
+}
+
+span:nth-child(4){
+    order: 4;
+}
+
+span:nth-child(8),
+span:nth-child(9){
+    order: 5;
+}
+
+span:nth-child(6){
+    order: 6;
+}
+
+span:nth-child(5){
+    order: 7;
+}
