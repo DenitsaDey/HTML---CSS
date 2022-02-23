@@ -1,0 +1,165 @@
+@import url("https://use.fontawesome.com/releases/v6.0.0/css/brands.css");
+@import url("./reset.css");
+@import url("./typography.css");
+@import url("./footer.css");
+@import url("./navigation.css");
+
+
+
+:root {
+    --color-primary: #41BEAD;
+    --color-orange: #FFB402;
+    --color-blue: #66B9F8;
+    --color-blue-light: #92CDFB;
+    --color-grey: #565656;
+    --color-grey-light: #919191;
+    --color-orange-letter: #FFF2CA;
+    --color-grey-letter: #DFD6CF;
+    --color-blue-letter: #E4F3FE;
+    --color-white: #fff;
+/*   
+    --shadow-base: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-large: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --navi-height: 58px; */
+  }
+
+
+  /* About Section */
+
+  main .about{
+    background-color: var(--color-orange);
+    width: 100vw;
+    padding: 3rem;
+  }
+
+  main .about .lectors-wrapper{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  main .about .lectors-wrapper h2{
+    margin-bottom: 	1rem;
+  }
+
+  main .about .lectors-wrapper p{
+    line-height: 1.25rem;
+    color: var(--color-orange-letter);
+  }
+
+
+
+  /* Leaders Section */
+
+main .leaders{
+    display: flex;
+    padding: 3rem;
+}
+
+main .leaders .member{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 1rem;
+  justify-content: start;
+  padding: 2rem;
+}
+
+.bio-wrapper h6{
+  padding: 0.75rem 0 1.5rem 0;
+}
+.bio-wrapper p{
+  color: var(--color-grey);
+  line-height: 1.25rem;
+
+}
+  .img-wrapper{
+    width: 150px;
+    height: 150px;
+    border: 5px solid var(--color-primary);
+    border-radius: 50%;	
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  .img-wrapper img{
+    width:100%;
+  }
+
+  /* Lectors Section */
+main .lectors{
+  padding: 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+main .lectors .bio-wrapper{
+  text-align: center;
+  padding-top: 1rem;
+}
+
+/* Join Section */
+main .join{
+  background-color: var(--color-blue);
+  border-top: 10px solid var(--color-blue-light);
+  padding: 3rem;
+}
+
+main .join-wrapper{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main .join-wrapper p{
+  padding: 1rem;
+  color: var(--color-blue-letter);
+} 
+
+main .join-wrapper .form-wrapper input{
+  background-color: transparent;
+  border: 1px solid var(--color-white);
+  color: var(--color-white);
+  padding: 0.75rem;
+  margin: 1rem;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+main .join-wrapper .form-wrapper .btn-submit{
+  background-color: var(--color-orange);
+  border-radius: 25px;
+  border: none;
+  padding: 10px 25px;
+  box-shadow: 1px 1px 5px 2px grey;
+}
+
+
+/* Footer */
+
+footer{
+  background-color: var(--color-grey);
+  border-top: 10px solid var(--color-grey-light);
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer h4{
+  font-size: 1rem;	
+  font-weight: bold;
+  margin-bottom: 1rem;;
+}
+
+footer ul li a{
+  text-decoration: none;
+  color: var(--color-white);
+  line-height: 1.5rem;
+}
+
+footer .social li{
+  display: inline-block;
+  margin: 0.25rem;
+
+}

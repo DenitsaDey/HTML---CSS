@@ -1,0 +1,26 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+    background-color: var(--color-primary);
+}
+
+.logo-wrapper{
+    width: 100px;
+}
+
+.logo-wrapper img{
+    width: 100%;
+}
+
+.navi-wrapper nav ul{
+    display: flex;
+    gap: 2rem;
+}
+
+.navi-wrapper nav ul a{
+    text-decoration: none;
+    color: var(--color-white);
+    font-weight: bold;
+}
