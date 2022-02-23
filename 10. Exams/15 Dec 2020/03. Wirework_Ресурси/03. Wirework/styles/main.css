@@ -1,0 +1,79 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+@import url("./reset.css");
+@import url("./typography.css");
+@import url("./footer.css");
+@import url("./navigation.css");
+
+
+
+:root {
+    --color-primary: #E24E2A;
+    --color-green: #1B9772;
+    --color-gray: #383838;
+    --color-gray-light: #ECECEC;
+    --color-gray-letter: #6C6C6C;
+    --color-white: #fff;
+/*   
+    --shadow-base: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-large: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --navi-height: 58px; */
+  }
+
+  .main-img{
+    display: block;
+    max-height: 600px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .main-img img{
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .intro{
+    background-color: var(--color-primary);
+    color: white;
+    padding: 3rem;
+    text-align: center;
+  }
+
+  .intro a{
+    color: white;
+  }
+
+  .intro p{
+    font-size: 0.8rem;
+    line-height: 2rem;
+  }
+
+  .departments{
+    background-color: var(--color-gray);  
+    color: white;
+    padding: 3rem;
+    display: flex;
+    gap: 1rem;
+  }
+
+  .departments article{
+    text-align: center;
+  }
+
+  .departments article hr{
+    margin: 1rem;
+  }
+
+  .register{
+    padding: 4rem;
+    text-align: center;
+  }
+
+  .register button{
+    margin-top: 2rem;
+    border:none;
+    background-color: var(--color-green);
+    color: white;
+    padding: 8px 28px;
+  }

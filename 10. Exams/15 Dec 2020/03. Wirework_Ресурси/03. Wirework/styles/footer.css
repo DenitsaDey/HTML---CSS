@@ -1,0 +1,11 @@
+footer{
+    background-color: var(--color-green);
+    padding: 4rem;
+}
+
+.ending{
+    color: var(--color-white);
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    text-align: center;
+}

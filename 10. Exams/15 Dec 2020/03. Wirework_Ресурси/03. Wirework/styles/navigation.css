@@ -1,0 +1,45 @@
+header{
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+header h1{
+    font-weight: bold;
+}
+
+header .title{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1em;	
+}
+
+header .title h1{
+    border-right: 3px solid grey;
+    padding-right: 1rem;
+}
+
+.menu ul{
+    display: flex;
+    gap: 0.1rem;
+}
+.menu li{
+ 
+ background-color: lightgray;
+ padding: 10px;
+ margin-left: 0;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: var(--color-grey);
+    font-size: 0.75rem;;
+}
+
+.menu li:hover{
+    background-color: var(--color-primary);
+    color: white;
+}
