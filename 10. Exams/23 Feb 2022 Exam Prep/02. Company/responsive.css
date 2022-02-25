@@ -1,0 +1,51 @@
+@media all and (max-width: 600px){
+    .main-nav{
+        display: none;
+    }
+
+    .goal{
+        float: none;
+    }
+    .hero-head{
+        background-image: none;
+        background-color: black;
+    }
+
+    .wrapper{
+        width:600px;
+        text-align: center;
+    }
+
+    .hero-head h1{
+        font-size: 40px;
+        margin: 40px;
+        float: none;
+    }
+
+    .hero-head .goal{
+        display: inline-block;
+        float: none;
+        max-width:80%;
+        text-align: center;
+    }
+
+    .content{
+        float: none;
+    }
+    .content-wrap{
+        flex-direction: column;
+    }
+
+    .module-text.centered{
+        display: inline-block;
+        width: 60%;
+    }
+
+    .main-foot .wrapper{
+        flex-direction: column;
+    }
+
+    .main-foot .bottom .copyright {
+        float: none;
+    }
+}
