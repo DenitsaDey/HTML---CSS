@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://use.fontawesome.com/releases/v6.0.0/css/all.css');
+
+body{
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(164,170,172,0.402194154028799) 100%), url(image.jpg) center center;
+    background-size: cover; 
+    font-family: 'Poppins';
+}
+
+h2{ 
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top:200px;
+    letter-spacing: 1px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: stretch;
+    gap: 10px;
+    width: 200px;
+    padding: 15px 10px;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+form button{
+    width: 100px;
+    background-color:#D41872;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    align-self: center;
+}
+
+form input{
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.input-container::before{
+    font-family: 'Font Awesome 6 Free';
+    content:'\f007';
+    display: inline-block;
+    font-weight: 900;
+    color: grey;
+    padding-right: 1rem;
+}
+
+.two::before{
+    content:'\f023';
+}
+

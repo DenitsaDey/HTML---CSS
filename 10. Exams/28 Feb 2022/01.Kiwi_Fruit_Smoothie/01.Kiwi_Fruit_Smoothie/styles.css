@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+
+body{
+    width: 1300px; /*width is set for consistency when the task is opened on different screens */
+    margin: 0 auto;
+    font-family: PT+Serif;
+    font-size: 22px;
+}
+
+.img-wrapper{
+    float: right;
+    width: 600px;
+    height: 600px;
+    margin: 10px;
+}
+
+.img-wrapper img{
+    width: 100%;
+}
+
+.recipe-wrapper{
+    width: 600px;
+    padding: 10px;
+    background: url(./image/image1.png);
+    background-size: cover;
+}
+
+h1{
+    font-size: 2.2rem;
+    text-align: center;
+    border-bottom: 2px dotted #148713;
+    margin-bottom: 0;
+}
+
+.subtitle{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-style: italic;
+    line-height: 0.1rem;
+}
+
+.ingredients{
+    list-style: none;
+    margin: 4rem 0;
+    padding-left: 0px;
+}
+
+.ingredients li span{
+    color: #148713;
+    font-weight: bold;
+}
+
+table{
+    border-collapse: collapse ;
+    width: 100%;	
+    margin-top: 3rem;
+}
+
+table th, table td{
+    
+    border: 2px solid #148713;
+    text-align: center;
+}
+
+
+
